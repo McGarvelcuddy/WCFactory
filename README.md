@@ -29,6 +29,8 @@ To properly configure git endlines for Windows, run this configuration
 ```bash
 $ git config --global core.autocrlf true
 ```
+Cygwin root is default located in `C:/cygwin` and would need to be changed to the drive root `C:/` or whichever drive in use to properly create elements as mentioned in the "Usage(company)" section.
+
 
 ## Usage (company)
 A company helps you manage multiple factories and the products they produce so you'll need to create one before you do anything else. **The company MUST be created in a directory above your user directory** in some manner. example: `/home/dana/Documents/git/company` or any directory above `/home/dana`.
